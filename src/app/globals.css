@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deca-gold: #f5c518;
+  --color-deca-navy: #0b1220;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-deca-navy);
+  color: #e2e8f0;
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background-color: var(--color-deca-gold);
+  color: #0b1220;
+}
